@@ -17,3 +17,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/NemW/source/repos/ToDoAPI/ToDoAPI/Views/TasksView/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NWaWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

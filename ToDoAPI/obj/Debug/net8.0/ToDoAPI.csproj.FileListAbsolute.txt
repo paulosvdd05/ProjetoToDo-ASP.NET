@@ -104,3 +104,7 @@ C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\obj\Debug\net8.0\refint\ToDoAPI.dll
 C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\obj\Debug\net8.0\ToDoAPI.pdb
 C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\obj\Debug\net8.0\ToDoAPI.genruntimeconfig.cache
 C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\obj\Debug\net8.0\ref\ToDoAPI.dll
+C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\bin\Debug\net8.0\ClientApp\vue-project\package-lock.json
+C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\bin\Debug\net8.0\ClientApp\vue-project\package.json
+C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\obj\Debug\net8.0\ToDoAPI.RazorAssemblyInfo.cache
+C:\Users\NemW\source\repos\ToDoAPI\ToDoAPI\obj\Debug\net8.0\ToDoAPI.RazorAssemblyInfo.cs

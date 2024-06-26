@@ -29,10 +29,26 @@ namespace ToDoAPI.Infraestrutura.Repositories
             _context.SaveChanges();
         }
 
+        public void MarkTaskAsCompleted(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task != null)
+            {
+                task.MarkAsCompleted();
+                _context.SaveChanges();
+            }
+        }
+
         public void delete(Tasks task)
         {
             _context.Tasks.Remove(task);
             _context.SaveChanges();
+        }
+
+        public void deleteTask(int id)
+        {
+            var task = get(id);
+            delete(task);
         }
     }
 }

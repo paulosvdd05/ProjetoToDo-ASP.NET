@@ -31,5 +31,12 @@ namespace ToDoAPI.Model
             this.DueDate = DueDate;
             this.Priority = Priority;
         }
+
+        public void MarkAsCompleted()
+        {
+            this.iscompleted = true;
+        }
+
+
     }
 }

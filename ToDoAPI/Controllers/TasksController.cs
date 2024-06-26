@@ -37,11 +37,17 @@ namespace ToDoAPI.Controllers
             return Ok();
         }
 
-        [HttpPut]
-        public IActionResult Put([FromBody] Tasks task)
+        [HttpPut("{id}")]
+        public IActionResult MarkAsCompleted(int id)
         {
-            _tasksRepository.update(task);
-            return Ok();
+            var task = _tasksRepository.get(id);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            _tasksRepository.MarkTaskAsCompleted(id);
+            return NoContent(); // Retorna um status 204 No Content para indicar sucesso sem enviar uma resposta de corpo
         }
 
         [HttpDelete]
@@ -51,6 +57,13 @@ namespace ToDoAPI.Controllers
             return Ok();
         }
 
-        
+        [HttpDelete("{id}")]
+        public ActionResult DeleteTask(int id)
+        {
+            _tasksRepository.deleteTask(id);
+            return Ok();
+        }
+
+
     }
 }
