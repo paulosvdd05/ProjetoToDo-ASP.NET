@@ -32,7 +32,7 @@ namespace ToDoAPI.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] TasksViewModel tasksView)
         {
-            var tasks = new Tasks(tasksView.title, tasksView.description, tasksView.iscompleted, tasksView.CreatedDate, null, null);
+            var tasks = new Tasks(tasksView.title, tasksView.description, tasksView.iscompleted, tasksView.CreatedDate, tasksView.DueDate, null);
             _tasksRepository.add(tasks);
             return Ok();
         }

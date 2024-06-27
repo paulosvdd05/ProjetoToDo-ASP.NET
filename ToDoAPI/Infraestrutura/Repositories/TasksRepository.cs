@@ -5,7 +5,12 @@ namespace ToDoAPI.Infraestrutura.Repositories
 {
     public class TasksRepository : ITasksRepository
     {
-        private readonly ConnectionContext _context = new ConnectionContext();
+        private readonly ConnectionContext _context;
+        public TasksRepository(ConnectionContext context)
+        {
+            _context = context;
+        }
+
 
         public void add(Tasks task)
         {
@@ -15,7 +20,7 @@ namespace ToDoAPI.Infraestrutura.Repositories
 
         public List<Tasks> Get(int pageNumber, int pageQuantity)
         {
-            return _context.Tasks.Skip(pageNumber * pageQuantity).Take(pageQuantity).ToList();
+            return _context.Tasks.Skip(pageNumber * pageQuantity).Take(pageQuantity).OrderBy(x => x.id).ToList();
         }
 
         public Tasks get(int id)

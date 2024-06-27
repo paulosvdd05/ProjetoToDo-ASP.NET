@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ToDoAPI.Infraestrutura.Repositories;
 using ToDoAPI.Interfaces;
 
@@ -13,8 +14,27 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<ITasksRepository, TasksRepository>();
 
+builder.Services.AddDbContext<ConnectionContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Database"));
+});
+
+
+
+
 
 var app = builder.Build();
+
+// Aplicar migrations automaticamente
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ConnectionContext>();
+    dbContext.Database.Migrate();
+}
+
+
+// Aplicar migrations automaticamente
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -28,7 +48,7 @@ else
     app.UseExceptionHandler("/error");
 }
 
-app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 

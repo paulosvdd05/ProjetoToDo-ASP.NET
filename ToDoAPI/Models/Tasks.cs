@@ -17,12 +17,12 @@ namespace ToDoAPI.Model
 
         public DateTime CreatedDate { get; private set; }
 
-        public DateTime? DueDate { get; private set; }
+        public DateTime DueDate { get; private set; }
 
         public int? Priority { get; private set; }
 
         public Tasks() { }
-        public Tasks(string title, string description, bool? iscompleted, DateTime CreatedDate, DateTime? DueDate, int? Priority)
+        public Tasks(string title, string description, bool? iscompleted, DateTime CreatedDate, DateTime DueDate, int? Priority)
         {
             this.title = title;
             this.description = description;

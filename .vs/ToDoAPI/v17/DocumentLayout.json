@@ -3,44 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\views\\tasksview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\views\\tasksview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\infraestrutura\\repositories\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\infraestrutura\\repositories\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\controllers\\tasksviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\controllers\\tasksviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\interfaces\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\interfaces\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\infraestrutura\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\infraestrutura\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\viewmodel\\tasksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\viewmodel\\tasksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35C384FA-4C58-4F84-A018-E831E1E159FB}|docker-compose.dcproj|c:\\users\\nemw\\source\\repos\\todoapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{35C384FA-4C58-4F84-A018-E831E1E159FB}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\infraestrutura\\repositories\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\infraestrutura\\repositories\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\infraestrutura\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\infraestrutura\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\interfaces\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\interfaces\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C384FA-4C58-4F84-A018-E831E1E159FB}|docker-compose.dcproj|c:\\users\\nemw\\source\\repos\\todoapi\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35C384FA-4C58-4F84-A018-E831E1E159FB}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\todoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\todoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\views\\tasksview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\views\\tasksview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\viewmodel\\tasksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\viewmodel\\tasksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\nemw\\source\\repos\\todoapi\\todoapi\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A96B09-9C1E-4A51-8065-CA8A5F12DE36}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,107 +70,198 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tasks.cs",
-              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Models\\Tasks.cs",
-              "RelativeDocumentMoniker": "ToDoAPI\\Models\\Tasks.cs",
-              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Models\\Tasks.cs",
-              "RelativeToolTip": "ToDoAPI\\Models\\Tasks.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAADwvyUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:29:01.142Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TasksViewController.cs",
-              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Controllers\\TasksViewController.cs",
-              "RelativeDocumentMoniker": "ToDoAPI\\Controllers\\TasksViewController.cs",
-              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Controllers\\TasksViewController.cs",
-              "RelativeToolTip": "ToDoAPI\\Controllers\\TasksViewController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:11:22.818Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ToDoAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\appsettings.json",
+              "RelativeToolTip": "ToDoAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T15:31:37.949Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ITasksRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Interfaces\\ITasksRepository.cs",
-              "RelativeDocumentMoniker": "ToDoAPI\\Interfaces\\ITasksRepository.cs",
-              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Interfaces\\ITasksRepository.cs",
-              "RelativeToolTip": "ToDoAPI\\Interfaces\\ITasksRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Program.cs",
+              "RelativeToolTip": "ToDoAPI\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwB8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T11:08:18.166Z",
+              "WhenOpened": "2024-06-25T10:54:56.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-27T11:50:20.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectionContext.cs",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
+              "RelativeToolTip": "ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:32:06.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TasksRepository.cs",
               "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Infraestrutura\\Repositories\\TasksRepository.cs",
               "RelativeDocumentMoniker": "ToDoAPI\\Infraestrutura\\Repositories\\TasksRepository.cs",
               "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Infraestrutura\\Repositories\\TasksRepository.cs",
               "RelativeToolTip": "ToDoAPI\\Infraestrutura\\Repositories\\TasksRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwAUAAAAjAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T11:01:22.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "ITasksRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Interfaces\\ITasksRepository.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\Interfaces\\ITasksRepository.cs",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Interfaces\\ITasksRepository.cs",
+              "RelativeToolTip": "ToDoAPI\\Interfaces\\ITasksRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:08:18.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T11:55:17.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ToDoAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+              "RelativeDocumentMoniker": "ToDoAPI\\ToDoAPI.csproj",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.csproj",
+              "RelativeToolTip": "ToDoAPI\\ToDoAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T15:16:33.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ToDoAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ToDoAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T13:26:56.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToDoAPI.http",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.http",
+              "RelativeDocumentMoniker": "ToDoAPI\\ToDoAPI.http",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\ToDoAPI.http",
+              "RelativeToolTip": "ToDoAPI\\ToDoAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-26T15:31:42.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "ToDoAPI\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:31:43.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "ToDoAPI\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Controllers\\TasksController.cs",
               "RelativeToolTip": "ToDoAPI\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowCcAAAAWAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswBUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T12:26:08.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Views\\TasksView\\Index.cshtml",
               "RelativeDocumentMoniker": "ToDoAPI\\Views\\TasksView\\Index.cshtml",
               "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Views\\TasksView\\Index.cshtml",
               "RelativeToolTip": "ToDoAPI\\Views\\TasksView\\Index.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAmwDIAAAAoAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAABMAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-25T14:21:31.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "TasksViewModel.cs",
               "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\ViewModel\\TasksViewModel.cs",
               "RelativeDocumentMoniker": "ToDoAPI\\ViewModel\\TasksViewModel.cs",
               "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\ViewModel\\TasksViewModel.cs",
               "RelativeToolTip": "ToDoAPI\\ViewModel\\TasksViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T11:13:09.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "ThrowController.cs",
               "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Controllers\\ThrowController.cs",
               "RelativeDocumentMoniker": "ToDoAPI\\Controllers\\ThrowController.cs",
@@ -160,31 +271,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T11:34:27.892Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ToDoAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Program.cs",
-              "RelativeToolTip": "ToDoAPI\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:54:56.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConnectionContext.cs",
-              "DocumentMoniker": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
-              "RelativeDocumentMoniker": "ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
-              "ToolTip": "C:\\Users\\NemW\\source\\repos\\ToDoAPI\\ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
-              "RelativeToolTip": "ToDoAPI\\Infraestrutura\\Repositories\\ConnectionContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:32:06.253Z"
             }
           ]
         }

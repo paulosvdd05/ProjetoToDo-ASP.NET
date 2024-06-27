@@ -29,6 +29,7 @@
             <th>Descrição</th>
             <th>Concluída</th>
             <th>Data de Criação</th>
+            <th>Data de Conclusão</th>
             <th></th>
         </tr>
     </thead>
@@ -40,6 +41,7 @@
                 <td>@task.description</td>
                 <td>@(task.iscompleted.HasValue && task.iscompleted.Value ? "Sim" : "Não")</td>
                 <td>@task.CreatedDate.ToString("dd/MM/yyyy")</td>
+                <td>@(task.iscompleted.HasValue && task.iscompleted.Value ? task.DueDate.ToString("dd/MM/yyyy") : "Não concluída")</td>
                 <td>
                     <div style="display: flex; justify-content:center">
                         <form id="deleteForm-@task.id" asp-page-handler="Delete">
@@ -65,7 +67,9 @@
 
         const title = document.getElementById("title").value;
         const description = document.getElementById("description").value;
+        const iscompleted = false;
         const createdDate = new Date(document.getElementById("createdDate").value).toISOString();
+        const dueDate = createdDate;
 
         const response = await fetch("/api/tasks", {
             method: "POST",
@@ -75,7 +79,9 @@
             body: JSON.stringify({
                 title,
                 description,
-                createdDate
+                iscompleted,
+                createdDate,
+                dueDate
             })
         }).then(response => {
             if (response.ok) {

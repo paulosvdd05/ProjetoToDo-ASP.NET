@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  todoapi:
+    image: ${DOCKER_REGISTRY-}todoapi
+    build:
+      context: .
+      dockerfile: ToDoAPI/Dockerfile
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__ToDoApi=Server=db;Port=5432;Database=todoapidb;User Id=postgres;Password=postgres;
+
+  db:
+    image: postgres:13
+    container_name: api.database
+    environment:
+      POSTGRES_DB: todo_sample
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+   
