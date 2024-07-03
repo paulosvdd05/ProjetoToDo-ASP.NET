@@ -33,10 +33,13 @@ namespace ToDoAPI.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime?>("DueDate")
+                    b.Property<DateTime>("DueDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<int?>("Priority")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("UsuarioId")
                         .HasColumnType("integer");
 
                     b.Property<string>("description")
@@ -52,7 +55,54 @@ namespace ToDoAPI.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("UsuarioId");
+
                     b.ToTable("tasks");
+                });
+
+            modelBuilder.Entity("ToDoAPI.Models.Usuario", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<byte[]>("salt")
+                        .IsRequired()
+                        .HasColumnType("bytea");
+
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.ToTable("usuario");
+                });
+
+            modelBuilder.Entity("ToDoAPI.Model.Tasks", b =>
+                {
+                    b.HasOne("ToDoAPI.Models.Usuario", "Usuario")
+                        .WithMany("Tasks")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("ToDoAPI.Models.Usuario", b =>
+                {
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }

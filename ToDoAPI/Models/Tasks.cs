@@ -1,5 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿
+
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using ToDoAPI.Models;
 
 namespace ToDoAPI.Model
 {
@@ -21,8 +24,16 @@ namespace ToDoAPI.Model
 
         public int? Priority { get; private set; }
 
-        public Tasks() { }
-        public Tasks(string title, string description, bool? iscompleted, DateTime CreatedDate, DateTime DueDate, int? Priority)
+   
+        public int UsuarioId { get; set; }
+
+        [ForeignKey("UsuarioId")]
+        public Usuario Usuario { get; set; }
+
+        public Tasks() {
+            
+        }
+        public Tasks(string title, string description, bool? iscompleted, DateTime CreatedDate, DateTime DueDate, int? Priority, int usuarioId)
         {
             this.title = title;
             this.description = description;
@@ -30,11 +41,13 @@ namespace ToDoAPI.Model
             this.CreatedDate = CreatedDate;
             this.DueDate = DueDate;
             this.Priority = Priority;
+            this.UsuarioId = usuarioId;
         }
 
         public void MarkAsCompleted()
         {
             this.iscompleted = true;
+            this.DueDate = DateTime.UtcNow;
         }
 
 

@@ -6,7 +6,7 @@
     <DockerPublishLocally>False</DockerPublishLocally>
     <ProjectGuid>35c384fa-4c58-4f84-a018-e831e1e159fb</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/TasksView</DockerServiceUrl>
+    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/Swagger</DockerServiceUrl>
     <DockerServiceName>todoapi</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
